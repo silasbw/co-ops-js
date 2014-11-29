@@ -1,4 +1,4 @@
 co-ops-js
 =========
 
-Wrapper for http://tidesandcurrents.noaa.gov/api/
+JavaScript wrapper for http://tidesandcurrents.noaa.gov/api/
