@@ -67,8 +67,8 @@ function CoOpsGet(params, success_cb, error_cb) {
       paramsStrings.push(paramKey + '=' + request_params[paramKey]);
     }
   }
-  var url = 'http://tidesandcurrents.noaa.gov/api/datagetter?' +
-    paramsStrings.join('&');
+  var url = encodeURI('http://tidesandcurrents.noaa.gov/api/datagetter?' +
+                      paramsStrings.join('&'));
 
   var req = new XMLHttpRequest();
   req.open('GET', url);
